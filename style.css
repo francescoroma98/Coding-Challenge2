@@ -1,0 +1,95 @@
+body{                                             
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteiner{                                     /*questo riquadro contiene e delimita tutto quello che è all'interno*/
+    background-color: rgba(0, 0,  0, 0.6);
+    border-radius: 25px;
+    text-align: center;
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    
+   
+    width: 200px;
+}
+.logo-text{
+
+    color: rgb(60, 255, 0);
+    font-family: sans-serif;
+    font-size: larger;
+    margin: auto;
+}
+.riquadro{                  /*questo riquadro mi aiuta a definire i margini dove andranno inseriti gli elementi del main*/
+    text-align: left;
+
+    width: 708px;
+    height: 350px;
+    margin: auto;
+
+}
+.barrabottoni{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 708px;
+    height: 30px;
+    background-color:rgb(83, 226, 43);
+}
+.barrabottoni button{
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+    font-size: 0,2em;
+}
+input[type="checkbox" i] {          /*ho allineato il pulsante al bordo sinistro*/
+    
+    margin: 3px 3px 3px 0px;
+    
+}
+.row-up{
+    display: inline-block;
+    font-family: Verdana;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: -14px;
+    
+}
+.row-down{
+    font-family: Verdana;
+    color: white;
+    font-size: small;
+}
+
+.carica {
+    width: 250px;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: orange;
+}
+.carica2{
+    width: 400px;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: green;
+}
+.carica3{
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: red;
+}
